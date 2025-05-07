@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+    background-color: #4A5C73;
+}
+
+.logo {
+    height: 135px;
+    opacity: .75;
+}
+
+.logo:hover {
+    opacity: 1;
+    transition: ease-in-out .25s;
+}
