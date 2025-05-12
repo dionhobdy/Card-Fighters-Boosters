@@ -9,6 +9,7 @@ body {
     height: 150px;
     display: inline-block;
     margin-bottom: 350px;
+    margin-left: 10px;
 }
 
 .logo:hover {
@@ -16,10 +17,60 @@ body {
     transition: ease-in-out .25s;
 }
 
-.shop_logo {
-    height: 750px;
+.pack_box {
+    height: 250px;
+    width: 550px;
+    margin-top: 400px;
+    margin-left: -110px;
+    position: absolute;
+    border: 12px, solid, #d8d8d8;
+    z-index: 2;
     display: inline-block;
-    opacity: .15;
+    filter: drop-shadow(3px 3px 4px #000000);
+}
+
+.shop_logo {
+    height: 800px;
+    display: inline-block;
+    opacity: .25;
+    margin-left: 300px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.single_box {
+    height: 250px;
+    width: 550px;
+    margin-top: 400px;
     margin-left: 500px;
-    margin-top: -590px;
+    position: absolute;
+    border: 12px, solid, #d8d8d8;
+    z-index: 2;
+    display: inline-block;
+    filter: drop-shadow(3px 3px 4px #000000);
+}
+
+.starter_box_1 {
+    height: 175px;
+    width: 175px;
+    margin-top: 170px;
+    margin-left: -110px;
+    position: absolute;
+    border: 12px, solid, #d8d8d8;
+    z-index: 2;
+    display: inline-block;
+    filter: drop-shadow(3px 3px 4px #000000);
+}
+
+.starter_box_2 {
+    height: 175px;
+    width: 175px;
+    margin-top: 170px;
+    margin-left: 125px;
+    position: absolute;
+    border: 12px, solid, #d8d8d8;
+    z-index: 2;
+    display: inline-block;
+    filter: drop-shadow(3px 3px 4px #000000);
 }
