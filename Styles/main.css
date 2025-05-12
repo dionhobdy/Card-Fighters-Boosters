@@ -1,6 +1,6 @@
 body {
     overflow: hidden;
-    background-color: #3e4f66;
+    background-color: #111111;
     background-image: url('../Assets/brick.png');
     background-size: 1500px;
 }
@@ -17,10 +17,9 @@ body {
 }
 
 .shop_logo {
-    height: 600px;
+    height: 750px;
     display: inline-block;
-    opacity: .5;
-    margin-left: 675px;
-    margin-top: -675px;
-    transform: rotate(.342rad);
+    opacity: .15;
+    margin-left: 500px;
+    margin-top: -590px;
 }
